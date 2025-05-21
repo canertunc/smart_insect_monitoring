@@ -1,0 +1,354 @@
+PS C:\Users\MURATA\Downloads\vgg16> python main.py
+CUDA bilgisi: NVIDIA GeForce GTX 1650
+CUDA bellek: 4.29 GB
+Veri yükleyicileri hazırlanıyor...
+Dataset loaded with 11029 images across 6 classes
+Training set: 8824 images, Validation set: 2205 images
+Model oluşturuluyor...
+Eğitici hazırlanıyor...
+Model cuda cihazına taşındı
+Eğitim başlıyor...
+Loss fonksiyonu oluşturuldu
+Optimizer oluşturuldu
+Learning rate scheduler oluşturuldu
+Training on cuda
+Total epochs: 10
+İlk batch alınıyor...
+İlk batch boyutu: torch.Size([32, 3, 224, 224])
+Epoch 1 başlıyor...
+Eğitim döngüsü başlıyor...
+İlk batch işleniyor... Boyut: torch.Size([32, 3, 224, 224])
+İlk batch tamamlandı!
+Batch 10 işlendi
+Batch 20 işlendi
+Batch 30 işlendi
+Batch 40 işlendi
+Batch 50 işlendi
+Batch 60 işlendi
+Batch 70 işlendi
+Batch 80 işlendi
+Batch 90 işlendi
+Batch 100 işlendi
+Batch 110 işlendi
+Batch 120 işlendi
+Batch 130 işlendi
+Batch 140 işlendi
+Batch 150 işlendi
+Batch 160 işlendi
+Batch 170 işlendi
+Batch 180 işlendi
+Batch 190 işlendi
+Batch 200 işlendi
+Batch 210 işlendi
+Batch 220 işlendi
+Batch 230 işlendi
+Batch 240 işlendi
+Batch 250 işlendi
+Batch 260 işlendi
+Batch 270 işlendi
+Epoch 1/10 - 738.85s - train_loss: 0.2419 - train_acc: 0.9114 - val_loss: 0.0987 - val_acc: 0.9692
+Model saved to results\best_vgg_insect_model.pth
+Yeni en iyi model kaydedildi! Doğrulama doğruluğu: 0.9692
+Epoch 2 başlıyor...
+Eğitim döngüsü başlıyor...
+İlk batch işleniyor... Boyut: torch.Size([32, 3, 224, 224])
+İlk batch tamamlandı!
+Batch 10 işlendi
+Batch 20 işlendi
+Batch 30 işlendi
+Batch 40 işlendi
+Batch 50 işlendi
+Batch 60 işlendi
+Batch 70 işlendi
+Batch 80 işlendi
+Batch 90 işlendi
+Batch 100 işlendi
+Batch 110 işlendi
+Batch 120 işlendi
+Batch 130 işlendi
+Batch 140 işlendi
+Batch 150 işlendi
+Batch 160 işlendi
+Batch 170 işlendi
+Batch 180 işlendi
+Batch 190 işlendi
+Batch 200 işlendi
+Batch 210 işlendi
+Batch 220 işlendi
+Batch 230 işlendi
+Batch 240 işlendi
+Batch 250 işlendi
+Batch 260 işlendi
+Batch 270 işlendi
+Epoch 2/10 - 810.79s - train_loss: 0.0671 - train_acc: 0.9763 - val_loss: 0.0656 - val_acc: 0.9769
+Model saved to results\best_vgg_insect_model.pth
+Yeni en iyi model kaydedildi! Doğrulama doğruluğu: 0.9769
+Epoch 3 başlıyor...
+Eğitim döngüsü başlıyor...
+İlk batch işleniyor... Boyut: torch.Size([32, 3, 224, 224])
+İlk batch tamamlandı!
+Batch 10 işlendi
+Batch 20 işlendi
+Batch 30 işlendi
+Batch 40 işlendi
+Batch 50 işlendi
+Batch 60 işlendi
+Batch 70 işlendi
+Batch 80 işlendi
+Batch 90 işlendi
+Batch 100 işlendi
+Batch 110 işlendi
+Batch 120 işlendi
+Batch 130 işlendi
+Batch 140 işlendi
+Batch 150 işlendi
+Batch 160 işlendi
+Batch 170 işlendi
+Batch 180 işlendi
+Batch 190 işlendi
+Batch 200 işlendi
+Batch 210 işlendi
+Batch 220 işlendi
+Batch 230 işlendi
+Batch 240 işlendi
+Batch 250 işlendi
+Batch 260 işlendi
+Batch 270 işlendi
+Epoch 3/10 - 721.23s - train_loss: 0.0253 - train_acc: 0.9914 - val_loss: 0.0815 - val_acc: 0.9746
+Epoch 4 başlıyor...
+Eğitim döngüsü başlıyor...
+İlk batch işleniyor... Boyut: torch.Size([32, 3, 224, 224])
+İlk batch tamamlandı!
+Batch 10 işlendi
+Batch 20 işlendi
+Batch 30 işlendi
+Batch 40 işlendi
+Batch 50 işlendi
+Batch 60 işlendi
+Batch 70 işlendi
+Batch 80 işlendi
+Batch 90 işlendi
+Batch 100 işlendi
+Batch 110 işlendi
+Batch 120 işlendi
+Batch 130 işlendi
+Batch 140 işlendi
+Batch 150 işlendi
+Batch 160 işlendi
+Batch 170 işlendi
+Batch 180 işlendi
+Batch 190 işlendi
+Batch 200 işlendi
+Batch 210 işlendi
+Batch 220 işlendi
+Batch 230 işlendi
+Batch 240 işlendi
+Batch 250 işlendi
+Batch 260 işlendi
+Batch 270 işlendi
+Epoch 4/10 - 803.75s - train_loss: 0.0134 - train_acc: 0.9956 - val_loss: 0.0361 - val_acc: 0.9882
+Model saved to results\best_vgg_insect_model.pth
+Yeni en iyi model kaydedildi! Doğrulama doğruluğu: 0.9882
+Epoch 5 başlıyor...
+Eğitim döngüsü başlıyor...
+İlk batch işleniyor... Boyut: torch.Size([32, 3, 224, 224])
+İlk batch tamamlandı!
+Batch 10 işlendi
+Batch 20 işlendi
+Batch 30 işlendi
+Batch 40 işlendi
+Batch 50 işlendi
+Batch 60 işlendi
+Batch 70 işlendi
+Batch 80 işlendi
+Batch 90 işlendi
+Batch 100 işlendi
+Batch 110 işlendi
+Batch 120 işlendi
+Batch 130 işlendi
+Batch 140 işlendi
+Batch 150 işlendi
+Batch 160 işlendi
+Batch 170 işlendi
+Batch 180 işlendi
+Batch 190 işlendi
+Batch 200 işlendi
+Batch 210 işlendi
+Batch 220 işlendi
+Batch 230 işlendi
+Batch 240 işlendi
+Batch 250 işlendi
+Batch 260 işlendi
+Batch 270 işlendi
+Epoch 5/10 - 754.44s - train_loss: 0.0153 - train_acc: 0.9952 - val_loss: 0.0508 - val_acc: 0.9819
+Epoch 6 başlıyor...
+Eğitim döngüsü başlıyor...
+İlk batch işleniyor... Boyut: torch.Size([32, 3, 224, 224])
+İlk batch tamamlandı!
+Batch 10 işlendi
+Batch 20 işlendi
+Batch 30 işlendi
+Batch 40 işlendi
+Batch 50 işlendi
+Batch 60 işlendi
+Batch 70 işlendi
+Batch 80 işlendi
+Batch 90 işlendi
+Batch 100 işlendi
+Batch 110 işlendi
+Batch 120 işlendi
+Batch 130 işlendi
+Batch 140 işlendi
+Batch 150 işlendi
+Batch 160 işlendi
+Batch 170 işlendi
+Batch 180 işlendi
+Batch 190 işlendi
+Batch 200 işlendi
+Batch 210 işlendi
+Batch 220 işlendi
+Batch 230 işlendi
+Batch 240 işlendi
+Batch 250 işlendi
+Batch 260 işlendi
+Batch 270 işlendi
+Epoch 6/10 - 861.72s - train_loss: 0.0060 - train_acc: 0.9982 - val_loss: 0.0477 - val_acc: 0.9855
+Epoch 7 başlıyor...
+Eğitim döngüsü başlıyor...
+İlk batch işleniyor... Boyut: torch.Size([32, 3, 224, 224])
+İlk batch tamamlandı!
+Batch 10 işlendi
+Batch 20 işlendi
+Batch 30 işlendi
+Batch 40 işlendi
+Batch 50 işlendi
+Batch 60 işlendi
+Batch 70 işlendi
+Batch 80 işlendi
+Batch 90 işlendi
+Batch 100 işlendi
+Batch 110 işlendi
+Batch 120 işlendi
+Batch 130 işlendi
+Batch 140 işlendi
+Batch 150 işlendi
+Batch 160 işlendi
+Batch 170 işlendi
+Batch 180 işlendi
+Batch 190 işlendi
+Batch 200 işlendi
+Batch 210 işlendi
+Batch 220 işlendi
+Batch 230 işlendi
+Batch 240 işlendi
+Batch 250 işlendi
+Batch 260 işlendi
+Batch 270 işlendi
+Epoch 7/10 - 733.55s - train_loss: 0.0045 - train_acc: 0.9985 - val_loss: 0.0411 - val_acc: 0.9891
+Model saved to results\best_vgg_insect_model.pth
+Yeni en iyi model kaydedildi! Doğrulama doğruluğu: 0.9891
+Epoch 8 başlıyor...
+Eğitim döngüsü başlıyor...
+İlk batch işleniyor... Boyut: torch.Size([32, 3, 224, 224])
+İlk batch tamamlandı!
+Batch 10 işlendi
+Batch 20 işlendi
+Batch 30 işlendi
+Batch 40 işlendi
+Batch 50 işlendi
+Batch 60 işlendi
+Batch 70 işlendi
+Batch 80 işlendi
+Batch 90 işlendi
+Batch 100 işlendi
+Batch 110 işlendi
+Batch 120 işlendi
+Batch 130 işlendi
+Batch 140 işlendi
+Batch 150 işlendi
+Batch 160 işlendi
+Batch 170 işlendi
+Batch 180 işlendi
+Batch 190 işlendi
+Batch 200 işlendi
+Batch 210 işlendi
+Batch 220 işlendi
+Batch 230 işlendi
+Batch 240 işlendi
+Batch 250 işlendi
+Batch 260 işlendi
+Batch 270 işlendi
+Epoch 8/10 - 810.82s - train_loss: 0.0014 - train_acc: 0.9998 - val_loss: 0.0397 - val_acc: 0.9891
+Epoch 9 başlıyor...
+Eğitim döngüsü başlıyor...
+İlk batch işleniyor... Boyut: torch.Size([32, 3, 224, 224])
+İlk batch tamamlandı!
+Batch 10 işlendi
+Batch 20 işlendi
+Batch 30 işlendi
+Batch 40 işlendi
+Batch 50 işlendi
+Batch 60 işlendi
+Batch 70 işlendi
+Batch 80 işlendi
+Batch 90 işlendi
+Batch 100 işlendi
+Batch 110 işlendi
+Batch 120 işlendi
+Batch 130 işlendi
+Batch 140 işlendi
+Batch 150 işlendi
+Batch 160 işlendi
+Batch 170 işlendi
+Batch 180 işlendi
+Batch 190 işlendi
+Batch 200 işlendi
+Batch 210 işlendi
+Batch 220 işlendi
+Batch 230 işlendi
+Batch 240 işlendi
+Batch 250 işlendi
+Batch 260 işlendi
+Batch 270 işlendi
+Epoch 9/10 - 729.55s - train_loss: 0.0011 - train_acc: 0.9998 - val_loss: 0.0396 - val_acc: 0.9896
+Model saved to results\best_vgg_insect_model.pth
+Yeni en iyi model kaydedildi! Doğrulama doğruluğu: 0.9896
+Epoch 10 başlıyor...
+Eğitim döngüsü başlıyor...
+İlk batch işleniyor... Boyut: torch.Size([32, 3, 224, 224])
+İlk batch tamamlandı!
+Batch 10 işlendi
+Batch 20 işlendi
+Batch 30 işlendi
+Batch 40 işlendi
+Batch 50 işlendi
+Batch 60 işlendi
+Batch 70 işlendi
+Batch 80 işlendi
+Batch 90 işlendi
+Batch 100 işlendi
+Batch 110 işlendi
+Batch 120 işlendi
+Batch 130 işlendi
+Batch 140 işlendi
+Batch 150 işlendi
+Batch 160 işlendi
+Batch 170 işlendi
+Batch 180 işlendi
+Batch 190 işlendi
+Batch 200 işlendi
+Batch 210 işlendi
+Batch 220 işlendi
+Batch 230 işlendi
+Batch 240 işlendi
+Batch 250 işlendi
+Batch 260 işlendi
+Batch 270 işlendi
+Epoch 10/10 - 798.89s - train_loss: 0.0010 - train_acc: 0.9999 - val_loss: 0.0384 - val_acc: 0.9900
+Model saved to results\best_vgg_insect_model.pth
+Yeni en iyi model kaydedildi! Doğrulama doğruluğu: 0.9900
+Model saved to results\last_vgg_insect_model.pth
+Training history plot saved to results/training_history.png
+Total training time: 02:10:28
+
+
