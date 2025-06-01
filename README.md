@@ -80,19 +80,19 @@ The custom ByteTrack implementation includes:
 
 | Model       | Accuracy | Precision | Recall | F1-Score |
 |-------------|----------|-----------|--------|----------|
-| VGG16       | 99.00%   | 99.03%    | 98.98% | 99.00%   |
-| InceptionV3 | 99.32%   | 99.33%    | 99.28% | 99.30%   |
-| MobileNetV3 | 99.00%   | 99.00%    | 99.00% | 99.00%   |
-| ResNet50    | 96.69%   | 96.89%    | 96.57% | 96.70%   |
+| VGG16       | 99.02%   | 99.03%    | 98.98% | 99.00%   |
+| InceptionV3 | 99.34%   | 99.33%    | 99.28% | 99.32%   |
+| MobileNetV3 | 98.42%   | 99.00%    | 99.00% | 98.50%   |
+| ResNet50    | 96.92%   | 96.89%    | 96.57% | 96.69%   |
 
 ### Detailed Model Comparison
 
 | Model       | Train F1 Score | Val F1 Score | Train Loss | Val Loss | Epochs | Training Time |
 |-------------|----------------|--------------|------------|----------|--------|---------------|
-| VGG16       | 0.9988         | 0.9900       | 0.0102     | 0.0312   | 15     | 85 min        |
-| InceptionV3 | 0.9967         | 0.9930       | 0.0076     | 0.0214   | 20     | 110 min       |
-| MobileNetV3 | 0.9924         | 0.9900       | 0.0188     | 0.0276   | 25     | 65 min        |
-| ResNet50    | 0.9876         | 0.9670       | 0.0245     | 0.0428   | 15     | 92 min        |
+| VGG16       | 0.9710         | 0.9900       | 0.0029     | 0.0384   | 10     | 130 min       |
+| InceptionV3 | 0.9912         | 0.9932       | 3.4000     | 0.0314   | 10     | 20 min        |
+| MobileNetV3 | 0.9988         | 0.9850       | 0.0045     | 0.0610   | 20     | 21 min        |
+| ResNet50    | 0.9279         | 0.9669       | 0.1925     | 0.1173   | 10     | 40 min        |
 
 > **Note:** Detailed visualizations including confusion matrices, classification reports, and training history graphs for each model are available in the `reports/` directory. These visualizations provide deeper insights into model performance across different insect classes.
 
@@ -145,7 +145,7 @@ Each class contains approximately 1600-2100 training images, resulting in a well
 ### Dataset Download
 The complete dataset is not included in the repository due to size constraints. You need to download it separately and place it in the `datasets/` directory:
 
-[Download Insect Classification Dataset](https://example.com/insect-dataset-download-link)
+[Download Insect Classification Dataset](https://drive.google.com/drive/folders/1svHkaUlSPY54MoS4E_KBTY-6yLWXkPJa?usp=sharing)
 
 ### Dataset Sources
 This dataset was compiled from various sources, including:
