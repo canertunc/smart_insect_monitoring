@@ -57,7 +57,7 @@ Four different classification models have been trained and evaluated for species
 
 3. **MobileNetV3**
    - Lightweight architecture optimized for edge devices
-   - 99.00% overall accuracy
+   - 98.50% overall accuracy
    - Fastest inference time
 
 4. **ResNet50**
