@@ -1,6 +1,4 @@
-# Smart Insect Monitoring (Real Time Detection, Classification and Risk Assessment)
-
-![Insect Detection System](app/logo.png)
+# ![Insect Detection System](app/logo.png){width=30} Smart Insect Monitoring (Real Time Detection, Classification and Risk Assessment)
 
 ## Project Overview
 
