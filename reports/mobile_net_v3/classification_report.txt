@@ -1,0 +1,12 @@
+              precision    recall  f1-score   support
+
+         bee       0.98      0.99      0.99       309
+         fly       0.99      0.99      0.99       430
+ grasshopper       0.98      0.97      0.98       352
+        lepi       1.00      1.00      1.00       347
+    scorpion       0.97      0.98      0.98       385
+      spider       0.98      0.98      0.98       382
+
+    accuracy                           0.99      2205
+   macro avg       0.99      0.99      0.99      2205
+weighted avg       0.99      0.99      0.99      2205
