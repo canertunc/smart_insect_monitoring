@@ -1,4 +1,4 @@
-<h1><img src="app/logo.png" alt="Insect Detection System" style="height:30px; vertical-align:middle;">Smart Insect Monitoring (Real Time Detection, Classification and Risk Assessment)</h1>
+<h1><img src="app/logo.png" alt="Insect Detection System" style="height:30px; vertical-align:middle;"> Smart Insect Monitoring (Real Time Detection, Classification and Risk Assessment)</h1>
 
 ## Project Overview
 
