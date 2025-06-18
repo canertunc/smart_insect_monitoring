@@ -4,6 +4,8 @@
 
 Smart Insect Detection is a comprehensive computer vision system designed to detect, classify, track, and assess the risk level of insects in real-time through video feeds or images. This multi-model approach combines state-of-the-art object detection, precise classification, and advanced tracking to create a powerful tool for insect monitoring and risk assessment.
 
+📄 **Note:** For comprehensive technical details, performance evaluations, and design decisions, please refer to the detailed report (`Smart_Insect_Detection_Report.pdf`) available in the root directory of the repository.
+
 ## Key Features
 
 ### 🔍 Multi-Stage Detection & Classification
@@ -85,12 +87,12 @@ The custom ByteTrack implementation includes:
 
 ### Detailed Model Comparison
 
-| Model       | Train F1 Score | Val F1 Score | Train Loss | Val Loss | Epochs | Training Time |
-|-------------|----------------|--------------|------------|----------|--------|---------------|
-| VGG16       | 0.9710         | 0.9900       | 0.0029     | 0.0384   | 10     | 130 min       |
-| InceptionV3 | 0.9912         | 0.9932       | 3.4000     | 0.0314   | 10     | 20 min        |
-| MobileNetV3 | 0.9988         | 0.9850       | 0.0045     | 0.0610   | 20     | 21 min        |
-| ResNet50    | 0.9279         | 0.9669       | 0.1925     | 0.1173   | 10     | 40 min        |
+| Model       | Train F1 Score | Val F1 Score | Train Loss | Val Loss | Epochs | Training Time | Size |
+|-------------|----------------|--------------|------------|----------|--------|---------------|-------|
+| VGG16       | 0.9710         | 0.9900       | 0.0029     | 0.0384   | 10     | 130 min       | 524.5 MB |
+| InceptionV3 | 0.9912         | 0.9932       | 3.4000     | 0.0314   | 10     | 20 min        | 98.4 MB |
+| MobileNetV3 | 0.9988         | 0.9850       | 0.0045     | 0.0610   | 20     | 21 min        | 16.7 MB|
+| ResNet50    | 0.9279         | 0.9669       | 0.1925     | 0.1173   | 10     | 40 min        | 92.1 MB|
 
 > **Note:** Detailed visualizations including confusion matrices, classification reports, and training history graphs for each model are available in the `reports/` directory. These visualizations provide deeper insights into model performance across different insect classes.
 
@@ -144,12 +146,6 @@ Each class contains approximately 1600-2100 training images, resulting in a well
 The complete dataset is not included in the repository due to size constraints. You need to download it separately and place it in the `datasets/` directory:
 
 [Download Insect Classification Dataset](https://drive.google.com/drive/folders/1svHkaUlSPY54MoS4E_KBTY-6yLWXkPJa?usp=sharing)
-
-### Dataset Sources
-This dataset was compiled from various sources, including:
-- [IP102: A Large-Scale Benchmark Dataset for Insect Pest Recognition](https://github.com/xpwu95/IP102)
-- [Insect Classification Dataset on Kaggle](https://www.kaggle.com/datasets/shamelessbaboon/insect-classification-dataset)
-- [Insects Images Dataset for Classification](https://www.kaggle.com/datasets/shreyasvedpathak/insects-images-dataset-for-classification)
 
 ### Dataset Statistics
 - Total images: ~9.000
