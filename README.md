@@ -85,7 +85,7 @@ The custom ByteTrack implementation includes:
 | MobileNetV3 | 98.42%   | 99.00%    | 99.00% | 98.50%   |
 | ResNet50    | 96.92%   | 96.89%    | 96.57% | 96.69%   |
 
-### Detailed Model Comparison
+### Detailed Classification Model Comparison
 
 | Model       | Train F1 Score | Val F1 Score | Train Loss | Val Loss | Epochs | Training Time | Size |
 |-------------|----------------|--------------|------------|----------|--------|---------------|-------|
@@ -93,6 +93,16 @@ The custom ByteTrack implementation includes:
 | InceptionV3 | 0.9912         | 0.9932       | 3.4000     | 0.0314   | 10     | 20 min        | 98.4 MB |
 | MobileNetV3 | 0.9988         | 0.9850       | 0.0045     | 0.0610   | 20     | 21 min        | 16.7 MB|
 | ResNet50    | 0.9279         | 0.9669       | 0.1925     | 0.1173   | 10     | 40 min        | 92.1 MB|
+
+### YOLOv8 Detection Performance Metrics
+
+| **Metric**     | **Value** | **Threshold**       |
+|----------------|-----------|---------------------|
+| mAP@50         | 0.924     | IoU = 0.5           |
+| mAP@50-95      | 0.60      | IoU = 0.5–0.95      |
+| Precision      | 0.84      | Conf = 0.25         |
+| Recall         | 0.82      | Conf = 0.25         |
+| F1-Score       | 0.84      | Conf = 0.25         |
 
 > **Note:** Detailed visualizations including confusion matrices, classification reports, and training history graphs for each model are available in the `reports/` directory. These visualizations provide deeper insights into model performance across different insect classes.
 
@@ -111,7 +121,8 @@ Smart_Insect_Detection/
 │   ├── vgg16/                   # VGG16 model
 │   ├── inception_v3/            # InceptionV3 model
 │   ├── mobile_net_v3/           # MobileNetV3 model
-│   └── res_net_50/              # ResNet50 model
+│   ├── res_net_50/              # ResNet50 model
+│   └── YOLOv8/                  # YOLOv8 model
 │
 ├── datasets/                    # Dataset repository
 │   ├── bee/                     # Bee images
